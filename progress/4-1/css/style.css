@@ -44,3 +44,20 @@ h3{
 	line-height: 3.6vh;
 	margin: 0.5vh 0;
 }
+
+article{
+	margin: 1.5vh 0;
+	padding: 1vh 5vw;
+}
+
+section{
+	margin:1.2vh 0 ;
+}
+
+p {
+	margin: 0.2vh 0;
+}
+
+a {
+	text-decoration: none;
+}
