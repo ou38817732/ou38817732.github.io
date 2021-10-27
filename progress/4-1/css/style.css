@@ -67,6 +67,14 @@ nav{
     line-height: 3vh;
 }
 
+nav > a {
+	background-color: #323232;
+	color: white;
+	padding: 2px 4px;
+	text-decoration: none;
+	opacity: 0.6;
+}
+
 a {
 	text-decoration: none;
 }
