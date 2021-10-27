@@ -50,9 +50,10 @@ article{
 	padding: 1vh 5vw;
 }
 
-section{
-	margin:1.2vh 0 ;
+section > p {
+	text-indent: 5% ;
 }
+/*針對section 以下的段落縮排*/
 
 p {
 	margin: 0.2vh 0;
