@@ -8,3 +8,9 @@ var math5=1 - 5 * 20; // multiply first
 
 var calc = math4 + math5; // Add math4 to math5 and store the result in the variable 'calc'
 // calc= calculation
+
+var msg = 'The result of calculation is:' + calc; // Combine a numeric value with a string as a string
+//console.log(msg)
+
+var notANumber= '0' + '100'; // These are strings, not numbers!
+console.log(notANumber);
