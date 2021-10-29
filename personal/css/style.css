@@ -19,6 +19,10 @@ body {
 	line-height: 3vh;
 }
 
+nav, a{
+	font-family: Lora, serif;
+}
+
 p{
 	font-family:'Zen Antique', serif;
 }
@@ -31,4 +35,28 @@ h1,h2,h3{
 	font-family:Poppins, sans-serif ;
 }
 
-img { margin-top: 1.5%; }
+img { 
+	margin-top: 1.5%; 
+}
+
+nav > a:not(:first-of-type)
+{
+ border-left:solid 2px white ;	
+}
+
+nav > a:first-of-type {
+	width: 2.4 vw;
+	}
+
+nav > a:hover{
+	opacity: 0.95;
+} 	
+
+nav > a:visited {
+	color: gray;
+}
+
+a, a:visited {
+	color:#323232 ;
+	text-decoration: none;
+}
