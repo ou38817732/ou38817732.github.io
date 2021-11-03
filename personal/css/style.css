@@ -39,6 +39,14 @@ img {
 	margin-top: 1.5%; 
 }
 
+nav > a {
+	background-color: #323232;
+	color: white;
+	padding: 2px 4px;
+	text-decoration: none;
+	opacity: 0.6;
+} 
+
 nav > a:not(:first-of-type)
 {
  border-left:solid 2px white ;	
