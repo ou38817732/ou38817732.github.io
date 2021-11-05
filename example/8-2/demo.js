@@ -42,3 +42,6 @@ var profile = {
 
  profile.gender= 'male'; // add a new "gender " key
  console.log(profile.gender);
+
+ delete profile.gender;
+ console.log(profile.gender);
