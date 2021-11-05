@@ -38,10 +38,10 @@ var profile = {
  //console.log(profile[key]);
 
  profile.name = ' Richard'; //Change the "name" key
- console.log(profile.name);
+ //console.log(profile.name);
 
  profile.gender= 'male'; // add a new "gender " key
- console.log(profile.gender);
+ //console.log(profile.gender);
 
- delete profile.gender;
- console.log(profile.gender);
+ delete profile.gender;// Delete a key
+ //console.log(profile.gender);
