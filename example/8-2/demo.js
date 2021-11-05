@@ -77,5 +77,6 @@ function printMsg(msg) {
  	calc:simpleCalc
  };
 
-
 demoFuncs.print('Message printed!');
+demoFuncs.calc(5,7);
+// Object-oriented programming
