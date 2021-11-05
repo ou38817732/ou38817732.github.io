@@ -24,3 +24,4 @@ function complexCalc(x,y) {
 	alert('Not executed qq');
 }
 var calcResult = complexCalc(4,6);
+console.log(calcResult);
