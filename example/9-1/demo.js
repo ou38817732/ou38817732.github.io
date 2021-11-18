@@ -16,15 +16,15 @@ window.onload= function() {
   //window.document: The entire HTML document 
   // document: The entire HTML document
    let siteTitle =document.title;
-   console.log(document.title);  
- //讀取body完成=onload
-
+   console.log(document.title); //讀取body完成=onload 
+ 
 let allDivs =document.getElementsByTagName('div');//會以陣列呈現
+//cosole.log(allDivs.length);
 //console.log(allDivs[0]);
 //console.log(allDivs[1].innerText);
 let emById = document.getElementById('div3');
 //console.log(emById.innerText);
 
 let classEms = document.getElementsByClassName('group1');
-console.log(classEms[0].innerText); 
+//console.log(classEms[0].innerText); 
 };
