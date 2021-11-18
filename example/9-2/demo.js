@@ -7,7 +7,10 @@ window.onload = function() {
 	let allDivsPs = document.querySelectorAll('div > p');
 	allDivsPs[1].style.cssText = 'background-color: green; color: red;';
 
-	let allDivsPs = document.getElementsByTagName('div');
-	allDivs[4].style.cssText = ' background-color:gold; color:white;';
-	allDivs[5].style.cssText = ' background-color:gold; color:white;';
+	let allDivs = document.getElementsByTagName('div');
+	//allDivs[4].style.cssText = ' background-color:gold; color:white;';
+	//allDivs[5].style.cssText = ' background-color:gold; color:white;';
+	//console.log(allDivs[4].classList);
+	allDivs[4].classList.add('gold');
+	allDivs[5].classList.add('gold');
 };
