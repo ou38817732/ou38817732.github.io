@@ -12,5 +12,13 @@ var winHeight = window.innerHeight;
 //window.location.pathname='/nosuchpath'; 
 
 window.onload= function() {
-  alert('Website is ready!');
+  //alert('Website is ready!');
+  //window.document: The entire HTML document 
+  // document: The entire HTML document
+   let siteTitle =document.title;
+   console.log(document.title);  
+ //讀取body完成=onload
+
+let allDivs =document.getElementByTagName('div');
+console.log(allDivs.length);
 };
