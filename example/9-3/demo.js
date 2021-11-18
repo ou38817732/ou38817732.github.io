@@ -9,5 +9,12 @@ window.onload = function() {
 		//alert('Body is clicked!');
 	});
 	let firstDiv = document.querySelector('div');
-	bodyEM.addEventListener('mouseenter',anotherMsg);
+	//bodyEM.addEventListener('mouseenter',anotherMsg);
+
+
+	let buttom = document.querySelector('buttom');
+	buttom.addEventListener('click',function(){
+		firstDiv.style.backgroundColor='red';
+
+	});
 };
