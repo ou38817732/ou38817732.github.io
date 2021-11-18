@@ -23,5 +23,8 @@ let allDivs =document.getElementsByTagName('div');//會以陣列呈現
 //console.log(allDivs[0]);
 //console.log(allDivs[1].innerText);
 let emById = document.getElementById('div3');
-console.log(emById.innerText); 
+//console.log(emById.innerText);
+
+let classEms = document.getElementsByClassName('group1');
+console.log(classEms[0].innerText); 
 };
