@@ -9,4 +9,8 @@ var winHeight = window.innerHeight;
 //console.log(winHeight);
 
 //window.location.href= 'https://google.com'; //guide you to google
-window.location.pathname='/nosuchpath'; 
+//window.location.pathname='/nosuchpath'; 
+
+window.onload= function() {
+  alert('Website is ready!');
+};
