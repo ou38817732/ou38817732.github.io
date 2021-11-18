@@ -19,6 +19,7 @@ window.onload= function() {
    console.log(document.title);  
  //讀取body完成=onload
 
-let allDivs =document.getElementByTagName('div');
-console.log(allDivs.length);
+let allDivs =document.getElementsByTagName('div');//會以陣列呈現
+console.log(allDivs[0]);
+console.log(allDivs[1].innerText);
 };
