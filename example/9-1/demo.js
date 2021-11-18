@@ -8,5 +8,5 @@ var winHeight = window.innerHeight;
 //console.log(winWidth);
 //console.log(winHeight);
 
-window.location.href= 'https://google.com';
-//window.location.pathname='/nosuchpath'; 
+//window.location.href= 'https://google.com'; //guide you to google
+window.location.pathname='/nosuchpath'; 
