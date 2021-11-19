@@ -19,7 +19,7 @@ if(1 !==2);
 alert('true');
 }
 
-if(2===1) {
+if(2==='2') {
 	alert('condition is true');
 }
 else if('a'==='b') {
