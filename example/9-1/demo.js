@@ -32,6 +32,6 @@ let classEms = document.getElementsByClassName('group1');
 let emBySelector = document.querySelector('div > p');//First match only
 //console.log(emBySelector.innerText);
 
-let emsBySelector =document.querySelectorAll('div >ｐ');//All matches
+let emsBySelector =document.querySelectorAll('div > p');//All matches
 console.log(emsBySelector.length);
 };

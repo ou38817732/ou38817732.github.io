@@ -12,7 +12,7 @@ window.onload = function() {
 	//bodyEM.addEventListener('mouseenter',anotherMsg);
 
 
-	let buttom = document.querySelector('buttom');
+	let buttom = document.querySelector('button');
 	buttom.addEventListener('click',function(){
 		firstDiv.style.backgroundColor='red';
 
