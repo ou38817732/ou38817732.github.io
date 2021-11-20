@@ -1,3 +1,17 @@
+function changeDivCSS() {
+let buttonId = this.id;
+	let divs = document.getElementsByTagName('div');
+	if(buttonId === 'changeDiv1') {
+		divs[0].style.cssText = 'background-color: red; width: 100px; height: 40px;';
+	}
+	else if(buttonId === 'changeDiv2') {
+		divs[1].style.cssText = 'background-color: black; width: 60px; height: 150px;';
+	}
+	else {
+		divs[2].style.cssText = 'background-color: gold; width: 200px; height: 200px;';
+	}
+};
+
 window.onload= function (){
 if(false){
   //alert('true');
@@ -40,5 +54,7 @@ else{
 	//alert('Neither is ture');
 }
 
+document.getElementById('changeDiv1').addEventListener('click');
+document.getElementById('changeDiv1').addEventListener('click');
 document.getElementById('changeDiv1').addEventListener('click');
 };
