@@ -51,7 +51,7 @@ else if(2 ===2 || 15==10){ // || means OR
 	//alert('condition2 is true');
 }
 else{
-	//alert('Neither is ture');
+	alert('Neither is ture');
 }
 
 document.getElementById('changeDiv1').addEventListener('click');
