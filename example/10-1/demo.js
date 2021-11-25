@@ -1,5 +1,5 @@
 function changeDivCSS() {
-let buttonId = this.id;
+	let buttonId = this.id;
 	let divs = document.getElementsByTagName('div');
 	if(buttonId === 'changeDiv1') {
 		divs[0].style.cssText = 'background-color: red; width: 100px; height: 40px;';
@@ -12,49 +12,50 @@ let buttonId = this.id;
 	}
 };
 
-window.onload= function (){
-if(false){
-  //alert('true');
-}
-else{
-//alert('false');
-}
+window.onload = function () {
+	if(false) {
+		//alert('true!');
+	}
+	else {
+		//alert('false!');
+	}
 
-//real conditions
-if(1===2){
-	//alert('ture');
-}
-else{
-	/*else{//'else' is optional} 
-	alert('false');}*/
+	// Real conditions
+	if(1 === 2) {
+		//alert('true!');
+	}
+	/*else { // 'else' is optional
+		alert('false!');
+	}*/
 
-// !==means 'not equivvqlent to '
-if(1 !==2);
-//alert('true');
-}
+	// !== means 'not equivalent to'
+	if(1 !== 2) {
+		//alert('true!');
+	}
 
-// multiple separate conditions
-if(2==='2') {
-	//alert('condition is true');
-}
-else if('a'==='a') {
-	//alert('condition2 is true');
-}
-else {
-	//alert('neither is true qq');
-}
+	// Multiple separate conditions
+	if(2 === '2') {
+		//alert('Condition 1 is true!');
+	}
+	else if('a' === 'a') {
+		//alert('Condition 2 is true!');
+	}
+	else {
+		//alert('Neither is true QQ.');
+	}
 
-if(2===2 && 15==10){ //&& means AND
-	//alert('condition 1 is true');
-}
-else if(2 ===2 || 15==10){ // || means OR
-	//alert('condition2 is true');
-}
-else{
-	//alert('Neither is ture');
-}
+	// AND vs. OR in the same line
+	if(2 === 2 && 15 === 10) {	// && means AND
+		//alert('Condition 1 is true.');
+	}
+	else if(2 !== 2 || 15 === 10) {	// || means OR
+		//alert('Condition 2 is true.');
+	}
+	else {
+		//alert('Neither is true.');
+	}
 
-document.getElementById('changeDiv1').addEventListener('click',changeDivCSS());
-document.getElementById('changeDiv1').addEventListener('click',changeDivCSS());
-document.getElementById('changeDiv1').addEventListener('click',changeDivCSS());
+	document.getElementById('changeDiv1').addEventListener('click', changeDivCSS);
+	document.getElementById('changeDiv2').addEventListener('click', changeDivCSS);
+	document.getElementById('changeDiv3').addEventListener('click', changeDivCSS);
 };
