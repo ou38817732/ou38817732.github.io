@@ -4,8 +4,36 @@
 	<meta charset="utf-8">
 	<title>Example 12-5:Interactive Animation with Jquery</title>
 	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			$('button').on('click',function(){
+				$('div').addClass('animated');
+			});
+		}; 
+	</script>
 	<style type="text/css">
-		
+		div {
+			width: 100px;
+			height: 100px;
+		}
+
+		div.animated {
+			animation: bgChange 1s linear inherit alternate;
+		}
+
+		@keyframes bgChange{
+			0%{/*equivalent to 'from' */
+				background-color: pink;
+			}
+
+			50%{
+				background-color: crimson;
+			}
+
+			100%{/*equivalent to 'to' */
+				background-color: azure;
+			}
+		}
 	</style>
 </head>
    <body>
