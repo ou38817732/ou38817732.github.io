@@ -4,20 +4,21 @@
 	<meta charset="utf-8">
 	<title>Example 12-3:Shrink and Expand with Transition</title>
 	<style type="text/css">
-		div { 
-			width:100px ;
+		div {
+			width: 100px;
 			height: 100px;
-			animation: bgChange 1s linear;
-		 }
-		 @keyframes beChange{
-		 	from{
-		 		background-color: red;
-		 	}
+			animation: bgChange 1s infinite alternate;
+		}
 
-		 	to {
-		 		background-color: orange;
-		 	}
-		 }
+		@keyframes bgChange {
+			from {
+				background-color: red;
+			}
+
+			to {
+				background-color: orange;
+			}
+		}
 	</style>
 </head>
    <body>
