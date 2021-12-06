@@ -7,7 +7,7 @@
 		div {
 			width: 100px;
 			height: 100px;
-			animation: bgChange 1s infinite alternate;
+			animation: bgChange 1s infinite alternate, posChange 2s ease-in-out infinite alternate;
 		}
 
 		@keyframes bgChange {
@@ -17,6 +17,16 @@
 
 			to {
 				background-color: orange;
+			}
+		}
+
+		@keyframes posChange {
+			from{
+				margin-left: 0;
+			}
+
+			to {
+				margin-left: 100px;
 			}
 		}
 	</style>
