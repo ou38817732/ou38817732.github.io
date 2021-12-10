@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Example 13-1:jQuery animation</title>
+	<script type="text/javascript" src="'https://code.jQuery.com/jQuery-3.6.0.min.js">
+		window.onload = function() {
+			$('button#fadeOut').on('click', function(){
+				$('div#fading').fadeOut();
+			});
+
+			$('button#fadeIn').on('click',function() {
+				$('div#fading').fadeIn();
+			});
+
+			$('button#fadeTo').on('click',function() {
+				$('div#fading').fadeTo(500,0.5)
+			});
+		};
+	</script>
+	<style type="text/css">
+		div {
+			padding: 5%;
+			background-color: red;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div id="fading"> Fade Out</div>
+    <button id="fadeOut"> Fade Out </button>
+    <button id="fadeIn"> Fade In </button>
+    <button id="fadeTo"> Fade to.... </button>
+</body>
+</html>

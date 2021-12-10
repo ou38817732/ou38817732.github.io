@@ -10,9 +10,12 @@
 			let index = 0;
 			window.onload = function() {
  				// Edit the jQuery event listener for the "Light up!" button here.
- 				$('button').on('click', function() {
+ 				$('button').eq(0).on('click', function() {
  					$('span').addClass('lightUp');
 
+ 				});
+ 				$('button').eq(1).on('click', function() {
+ 					$('span').removeClass('lightUp');
  				});
 			};
 		</script>
@@ -39,10 +42,24 @@
  			/* Add the class "lightUp" to each <span> when the button is clicked and get the animinate to work. */
 			span.lightUp {
 				        opacity: 1;
-                      	animation: transColor 1s linear infinite alternate;
+                      	animation: transColor 1s linear infinite alternate,transPos 1s linear infinite alternate ;
+
 			}
 
  			/* Set changes at 0%, 50%, and 100% for the background color */
+			 @keyframes transPos 
+            {  
+
+              from {
+              	    transform: rotatez(22.5deg);
+              	}
+
+               to {
+               	transform: rotatez(-22.5deg);
+               }
+               
+             }
+
 			@keyframes transColor {
                     0%{
                     	background-color: red;
@@ -56,6 +73,8 @@
                     	background-color: green;
                     }
 			}
+               
+
 
 		</style>
 	</head>
@@ -109,5 +128,6 @@
 			</span>
 		</p>
 		<button>Light up!</button>
+		<button>stop</button>
 	</body>
 </html>
