@@ -7,7 +7,6 @@
 
 	box-sizing: border-box;
 }
-
 html{
 	height: 100%;
 	width: 100%;
@@ -85,12 +84,13 @@ nav > a > span {
 	transition: all 1s ease-out;
 }
 
-nav > a.close> span {
+nav > a.close > span {
 	transform: rotate(45deg);
 	transition: all 1s ease-out;
 }
 
-nav > a:not(:first-of-type) {
+nav > a:not(
+	:first-of-type) {
 	display: none;
 	border-left:solid 2px white ;
 }
