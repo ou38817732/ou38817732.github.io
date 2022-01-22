@@ -1,0 +1,77 @@
+/*Google Fonts: Lora(serif),Poppins(sans-serif)*/
+
+@import url('https: //fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=Zen+Antique&display=swap');
+              @import url('https: //fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro&display=swap');
+
+              *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+              }
+
+              html{
+                height: 100%;
+                width: 100%;
+              }
+
+              body{
+             overflow-x: hidden;
+             overflow-y: auto;
+             background-color: white;
+             color: #000a16;
+             font-family: 'Zen Antique', serif;
+             font-size: 2vh;
+             line-height: 3vh;
+              }
+
+             h1,h2,h3{
+                font-family:'Source Sans Pro', sans-serif ;
+             } 
+            
+           img.landing{
+              margin-top: 1.5%;
+            }
+
+            img.p47{
+               margin-right: 0.5%;
+               margin-top: 0.5%;
+            }
+
+            img.fw190a{
+               margin-right: 1.5%; 
+            }
+
+            a{
+                font-family: Poppins,sans-serif;
+                text-decoration: none;
+            }
+
+            span.joint{ 
+                color: #018571; 
+            }
+
+            nav {
+             position: fixed;
+             left: 2 px;
+             font-family: 'Source Sans Pro',sans-serif;
+             font-size: 2 vh;
+             line-height: 2.5 vh;
+            }
+
+            nav > a {
+                background-color: #696969;
+                color: white;
+                padding:2 px 4px ;
+                text-decoration: none;
+                opacity: 0.7;
+            }
+            
+            a.not   {
+                border-left: 2.5px solid white ;
+            }
+
+            nav > a:hover{
+                opacity: 0.95 !important;
+                transition: all 1s ease-out   ;
+            }
